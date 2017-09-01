@@ -852,7 +852,7 @@ Subreddit color scheme
 .footer a, .bottommenu, .bottommenu a {color: #ffffff}
 
     /* Banners */
-.side .md h5:after, .comments-page.post-submitter .commentarea>.usertext .usertext-edit .bottom-area::before, .arrow.down:after {
+.side .md h5:after, .comments-page.post-submitter .commentarea>.usertext .usertext-edit .bottom-area::before, .arrow.down:after, .arrow.down:hover:after {
     background-color: #3e5465;
     color: #fff;
 }
