@@ -1,0 +1,70 @@
+/* --- Addon: Dark Theme --- */
+
+    /* Background Color */
+    body {background-color: #1C1E22;}
+
+    /* Card Color */
+    .link, input:not([type="submit"]), textarea, .side, .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4
+    .comments-page .side .linkinfo, .commentarea .thing, .stylesheet-customize-container .pretty-form, #images, .submit-page .roundfield,
+    .linefield, .btn, button, .drop-choices, .hover-bubble, .search-page .searchpane, .content.submit .info-notice, 
+    .submit-page #newlink.submit.content .tabmenu.formtab a, .flairselector:before, .flairselector, .comments-page .side .linkinfo,
+    .wiki-page .pageactions, .wiki-page .wikititle, .wiki-page .wiki-page-content, .search-page .menuarea, .sitetable .nav-buttons
+    {background-color: #2E3135;}
+
+    .res-commentBoxes .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment, 
+    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment
+    {background-color: #2E3135 !important;}
+
+    /* Secondary Card Color */
+    #search #searchexpando, .commentarea>.usertext, .search-page .searchfacets, .link.last-clicked, .titlebox .tagline:after,
+    .submit-page #newlink.submit.content .tabmenu.formtab a:hover, .top-page .content .menuarea .drop-choices.lightdrop a.choice:hover,
+    .md code, .md pre, .pretty-form textarea, .btn:hover, button:hover, .btn:active, button:active, .new-comment .usertext-body
+    {background-color: #25282C;}
+
+    .res-commentBoxes .comment .comment,
+    .res-commentBoxes .comment .comment .comment .comment, .res-commentBoxes .comment .comment .comment .comment .comment .comment, 
+    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment,
+    .res-commentBoxes .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment 
+    {background-color: #25282C !important;}
+
+    /* Border Color */
+    .link .entry, .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4, .link .usertext .md, input:not([type="submit"]), textarea,
+    .btn, button, .roundfield textarea, .roundfield input[type=text], .top-page .content .menuarea .drop-choices.lightdrop,
+    .roundfield input[type=url], .roundfield input[type=password], .roundfield input[type=number], .md code, .md pre,
+    .wiki-page .wiki-page-content hr, .expando-button, .expando-button.image, .expando-button.video-muted, 
+    .search-page #search input[type=text], .footer .col, .linefield textarea, .linefield input[type=text], .linefield input[type=password],
+    .comment .child, .comment .showreplies, .linkinfo .shortlink input, .sitetable .nav-buttons, input:hover, textarea:hover,
+    .pretty-form textarea {border-color: #25282C;}
+
+    /* Grey Text Color */
+    body, .link .domain a, .link .entry .buttons li a, .link .entry .tagline, .flair, .titlebox .tagline, .bottommenu, .tagline .stickied-tagline,
+    .comment .flat-list li a, .comment .entry .tagline, .comment .expand, .comment .entry, .comments-page .side .linkinfo .date, 
+    .usertext .bottom-area a, .commentarea .menuarea span.dropdown-title.lightdrop, .commentarea .menuarea .toggle a, .help-hoverable,
+    .search-page .menuarea, .link .score, .sitetable .nav-buttons .nextprev, .gray, .linefield, .top-page .content .menuarea .drop-choices.lightdrop a.choice,
+    .wiki-page .pageactions .wikiaction, .wiki-page .wiki-page-content em, .searchfacets h4.title, .link .entry .buttons li .redditSingleClick
+     {color: #686E7B;}
+
+
+    /* Black Text Color */
+    .link .entry .tagline a, .titlebox h1 a, .md h1, .md h2, .titlebox span.subscribers, .titlebox .users-online, .titlebox .number,
+    .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4, .side .md .-blocks, .side .md .-lists, .side .md pre, 
+    .side .md blockquote, .side .md table, .side .md p, .side .md ul, .side .md ol, .side #moderation_tools .title h1, .sidecontentbox .title h1,
+    .sidecontentbox .more a, .flat-vert.title, .md h3, .comment .usertext .md, .comment .score, .comment .author, .comments-page .side .linkinfo, 
+    #search #searchexpando, .commentarea .panestack-title .title, .hover-bubble, .search-page #search label, .search-page .menuarea,
+    .search-page .menuarea .dropdown.lightdrop .selected, .submit-page .roundfield .title, .submit-page .roundfield, 
+    .submit-page #newlink.submit.content .tabmenu.formtab a, #sr-header-area .drop-choices a.choice, .comments-page .side .linkinfo .score, 
+    .pretty-form, input:not([type="submit"]), textarea, .link .usertext .md, .btn:hover, button:hover, .btn, button, 
+    .hover-bubble.multi-selector strong, .wiki-page .wikititle, .wiki-page-content .md h1, .wiki-page-content .md h6,
+    .wiki-page .wiki-page-content .wiki.md, .wiki-page .wiki-page-content .wiki.md h2, input:focus, textarea:focus,  .pretty-form textarea,
+    .wiki-page .pageactions .wikiaction-current  {color: #d2d2d2;}
+
+    /* Misc Fixes - Don't touch this */
+    .btn, button {box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);}
+    .btn:hover, button:hover {box-shadow: 0px 6px 7px 0 rgba(0, 0, 0, 0.42); -webkit-box-shadow: 0px 6px 7px 0 rgba(0, 0, 0, 0.42);}
+    .btn:active, button:active {box-shadow: none;}
+    .side .titlebox .md h4 a, .wiki-page .wiki-page-content .md.wiki h4 {box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.48);}
+    .side .titlebox h4 a:hover, .wiki-page .wiki-page-content .md.wiki h4:hover {box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.48);}
+    .search-page input[type="text"] {color: #fff !important;}
+    .new-comment .usertext-body {background-color: rgba(229, 239, 255, 0.1); border: 0px solid;}
+
+/* --- End Addon --- */
