@@ -1,4 +1,4 @@
-# nmscoe files:
+# nmscoe main files:
 
 CustomStyle.css - unpacked subreddit style
 
