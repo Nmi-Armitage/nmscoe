@@ -1,0 +1,60 @@
+/* Customization: Replace specific URLs by Glyphs */
+.md a[href^="//hex/"], .md a[href^="//name/"] {
+	background-image: url(%%glyphspritesheet%%);
+	background-repeat: no-repeat;
+	width: 256px;
+	height: 256px;
+	display: inline-block;
+	pointer-events: none;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+
+	/* Glyph size */
+	zoom:0.15; /*=15% of 256px*/
+	-moz-transform:scale(0.15);
+	-moz-transform-origin: 0 0;
+
+	/* Glyph colors (choose one) */
+	/*red
+	-webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+	filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+	*/
+	/*blue*/
+	-webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+	filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+	
+	/*green
+	-webkit-filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+	filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
+	*/
+	/*yellow
+	-webkit-filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7);
+	filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(0.7);
+	*/
+	/*grey
+	-webkit-filter: grayscale(100%) brightness(110%) contrast(0.9);
+	filter: grayscale(100%) brightness(110%) contrast(0.9);
+	*/
+	/*black
+	-webkit-filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+	filter: invert(30%) grayscale(100%) brightness(70%) contrast(4);
+	*/
+}
+	.md a[href="//hex/0"], .md a[href="//name/sunset"] 		{background-position: 0 0}
+	.md a[href="//hex/1"], .md a[href="//name/bird"] 		{background-position: -256px 0}
+	.md a[href="//hex/2"], .md a[href="//name/face"] 		{background-position: -512px 0}
+	.md a[href="//hex/3"], .md a[href="//name/diplo"] 		{background-position: -768px 0}
+	.md a[href="//hex/4"], .md a[href="//name/eclipse"] 	{background-position: 0 -256px}
+	.md a[href="//hex/5"], .md a[href="//name/balloon"] 	{background-position: -256px -256px}
+	.md a[href="//hex/6"], .md a[href="//name/boat"] 		{background-position: -512px -256px}
+	.md a[href="//hex/7"], .md a[href="//name/bug"] 		{background-position: -768px -256px}
+	.md a[href="//hex/8"], .md a[href="//name/dragonfly"] 	{background-position: 0 -512px}
+	.md a[href="//hex/9"], .md a[href="//name/galaxy"] 		{background-position: -256px -512px}
+	.md a[href="//hex/a"], .md a[href="//name/voxel"] 		{background-position: -512px -512px}
+	.md a[href="//hex/b"], .md a[href="//name/fish"] 		{background-position: -768px -512px}
+	.md a[href="//hex/c"], .md a[href="//name/tent"] 		{background-position: 0 -768px}
+	.md a[href="//hex/d"], .md a[href="//name/rocket"] 		{background-position: -256px -768px}
+	.md a[href="//hex/e"], .md a[href="//name/tree"] 		{background-position: -512px -768px}
+	.md a[href="//hex/f"], .md a[href="//name/altas"] 		{background-position: -768px -768px}
+/* End Customization */
