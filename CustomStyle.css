@@ -127,9 +127,8 @@ body.listing-page>.content {margin-top: 132px;}
 		font-weight: bold;
 		color: #4F8EF7;
 	}
-		.side .titlebox .md h6 a:hover {text-decoration: underline;}
 
-	.search-page .side .titlebox .md h6 {display: none;visibility: hidden}
+.search-page .side .titlebox .md h6 {display: none;}
 /* --- End Addon --- */
 
 /* End Naut-for-reddit Addons */
@@ -162,11 +161,15 @@ body:not(.search-page) #search #searchexpando {line-height:initial}
 	visibility: hidden !important;
 }
 
-/* Naut #header-bottom-right width fix */
-#header-bottom-right {max-width: 320px}
-/* Naut #sr-header-area positions fix */
-#sr-header-area .width-clip {margin-right: 15px;right: 310px}
-#sr-more-link{max-width: 65px; margin-right: -8px;}
+/* Naut #header-bottom-right width and icons wrap fix */
+#header-bottom-right {
+	max-width: 340px;
+	white-space: nowrap;
+}
+/* Naut #sr-header-area overlapping fix */
+#sr-header-area .width-clip {right: 340px}
+#sr-header-area #sr-more-link{max-width: 65px}
+#sr-header-area .sr-list{margin-right: calc(65px + 10px)}
 
 /* End Naut-for-reddit FIXES */
 
